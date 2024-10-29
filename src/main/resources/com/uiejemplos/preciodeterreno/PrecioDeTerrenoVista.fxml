@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="506.0" prefWidth="569.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.uiejemplos.preciodeterreno.PrecioDeTerrenoControllers">
+   <children>
+      <Label layoutX="73.0" layoutY="28.0" text="Ancho de terreno:" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Tahoma" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="74.0" text="Largo de terreno:">
+         <font>
+            <Font name="Tahoma" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFldAncho" layoutX="274.0" layoutY="25.0" prefHeight="26.0" prefWidth="175.0" />
+      <TextField fx:id="txtFldLargo" layoutX="274.0" layoutY="71.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="12.0" layoutY="122.0" text="Precio por metro cuadrado:">
+         <font>
+            <Font name="Tahoma" size="15.0" />
+         </font></Label>
+      <TextField fx:id="txtFldPrecioPorMetro" layoutX="275.0" layoutY="119.0" prefHeight="26.0" prefWidth="175.0" />
+      <Button fx:id="btnCalcular" layoutX="103.0" layoutY="352.0" mnemonicParsing="false" onAction="#onActionBtnCalcular" text="Calcular">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="BtnSalir" layoutX="362.0" layoutY="345.0" mnemonicParsing="false" onAction="#onActionBntSalir" text="Salir">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="70.0" layoutY="177.0" prefHeight="22.0" prefWidth="158.0" text="Precio de terreno:">
+         <font>
+            <Font name="Tahoma" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtFldPrecio" layoutX="278.0" layoutY="175.0" prefHeight="26.0" prefWidth="166.0" />
+   </children>
+</AnchorPane>
